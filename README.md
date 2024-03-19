@@ -36,5 +36,5 @@
 
 
 # :file_folder: 출처
-<https://velog.io/@gillog/Java-Priority-Queue%EC%9A%B0%EC%84%A0-%EC%88%9C%EC%9C%84-%ED%81%90>
-<https://soft.plusblog.co.kr/24>
+- <https://velog.io/@gillog/Java-Priority-Queue%EC%9A%B0%EC%84%A0-%EC%88%9C%EC%9C%84-%ED%81%90>
+- <https://soft.plusblog.co.kr/24>
