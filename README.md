@@ -8,6 +8,7 @@
 - **바닥(bottom)** : 스택의 가장 아랫부분
 - **스택 포인터(stack pointer)** : 스택에 쌓여 있는 데이터 수
 
+
 # 큐(Queue)
 ![큐](https://github.com/mkyoung24/Algorithm/assets/103173521/47352eff-0898-4959-a14d-c841c6d6d5ae)
 - 스택과 마찬가지로 데이터를 일시적으로 쌓아 놓는 자료구조
@@ -34,7 +35,7 @@
 3. 내부구조가 힙으로 구성되어 있기에 시간 복잡도는 O(NlogN)
 4. 우선순위를 중요시해야 하는 상황에서 주로 쓰임
 
-
-# :file_folder: 출처
+***
+## :file_folder: 출처
 - <https://velog.io/@gillog/Java-Priority-Queue%EC%9A%B0%EC%84%A0-%EC%88%9C%EC%9C%84-%ED%81%90>
 - <https://soft.plusblog.co.kr/24>
