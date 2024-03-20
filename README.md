@@ -3,7 +3,7 @@
 ## :bookmark_tabs: 챕터
 1. [검색 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch1)
 2. [스택과 큐](https://github.com/mkyoung24/Algorithm/tree/ch2)
-3. 제귀 알고리즘
+3. [제귀 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch3)
 4. 정렬 알고리즘
 5. 문자열 검색
 6. 리스트
