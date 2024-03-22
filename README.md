@@ -1,16 +1,47 @@
-# 자료구조 With 자바
-
-## :bookmark_tabs: 챕터
-1. [검색 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch1)
-2. [스택과 큐](https://github.com/mkyoung24/Algorithm/tree/ch2)
-3. [재귀 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch3)
-4. [정렬 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch4)
-5. 문자열 검색
-6. 리스트
-7. 트리
-8. 해시
+# 정렬
+- 정렬(sorting)은 이름, 학번, 키 등 핵심 항목(key)의 대소 관계에 따라 데이터 집합을 일정한 순서로 나열하는 작업
+- 작은 데이터를 앞쪽에 놓으면 오름차순(ascending order)정렬, 반대로 놓으면 내림차순(descending order)정렬
+- 정렬 알고리즘의 핵심요소는 교환, 선택, 삽입
 
 
-# :file_folder: 출처
-- 자료구조와 함께 배우는 알고리즘 입문 자바편
+## 버블 정렬
+![버블정렬](https://github.com/mkyoung24/Algorithm/assets/103173521/6c47c653-919b-4011-b7fb-fee52b30e9ba)
+- 이웃한 두 요소의 대소 관계를 비교하고 필요에 따라 교환을 반복하는 알고리즘
+
+
+## 선택 정렬
+![선택정렬](https://github.com/mkyoung24/Algorithm/assets/103173521/6a6e884b-aead-4269-9661-543453e9305c)
+- 가장 작은 요소를 맨 앞으로 이동하고, 두 번째 작은 요소는 맨 앞에서 두 번째로 이동하는 등의 작업을 반복하는 알고리즘
+
+
+## 삽입 정렬
+![삽입정렬](https://github.com/mkyoung24/Algorithm/assets/103173521/5bdc2967-72ee-41bc-b5a1-cbbc711d8e6c)
+- 선택한 요소를 그보다 더 앞쪽의 알맞은 위치에 '삽입하는' 작업을 반복하여 정렬하는 알고리즘
+
+
+## 셸 정렬
+![셸 정렬1](https://github.com/mkyoung24/Algorithm/assets/103173521/947b45f0-b219-46f4-b200-606f4cf80155)
+![셸 정렬2](https://github.com/mkyoung24/Algorithm/assets/103173521/1c5e0524-489a-4b87-9a05-e540bcff5339)
+- 단순 삽입 정렬의 장점을 살리고 단점을 보완하여 좀 더 빠르게 정렬하는 알고리즘
+- 먼저 일정한 각겨으로 서로 떨어져 있는 두 요소를 그룹으로 묶어 대략 정렬을 수행하고, 간격을 좁혀 그룹의 수를 줄이면서 정렬을 반복하여 요소의 이동 횟수를 줄이는 방법
+
+## 퀵 정렬
+![퀵 정렬](https://github.com/mkyoung24/Algorithm/assets/103173521/3a90a5ee-40f3-46f9-88a5-aae3b53ff526)
+- 빠른 정렬 속도를 자랑하는 분할 정복 알고리즘 중 하나로 피봇을 설정하고 피봇보다 큰 값과 작은 값으로 분할하여 정렬
+
+
+## 병합 정렬
+![병합정렬](https://github.com/mkyoung24/Algorithm/assets/103173521/0bd7c0cd-3fee-43d3-bb05-cb1285926910)
+- 정렬을 마친 배열의 병합을 응용하여 분할 정복법에 따라 정렬하는 알고리즘
+
+#### 병합 정렬 알고리즘
+- **배열의 요솟수가 2개 이상인 경우**
+  1. 배열의 앞부분을 병합 정렬로 정렬함
+  2. 배열의 뒷부분을 병합 정렬로 정렬함
+  3. 배열의 앞부분과 뒷부분을 병합함
+
+
+
+
+
 
