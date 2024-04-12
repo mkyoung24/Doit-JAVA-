@@ -30,6 +30,7 @@
 ![스택1](https://github.com/mkyoung24/Algorithm/assets/103173521/dcbcdfd6-66d9-4ee5-a016-58af97cce731)
 - 데이터를 일시적으로 쌓아두기 위한 자료구조 중 하나
 - 후입선출(LIFO, Last-In-First-Out)
+
 |주요 용어|설명|
 |:---:|:---:|
 |**Top**|삽입과 삭제가 일어나는 위치|
@@ -42,6 +43,7 @@
 ![큐1](https://github.com/mkyoung24/Algorithm/assets/103173521/0a12255e-7aca-4743-8331-5fa3794d9223)
 - 선형 구조의 형태이며 데이터를 일시적으로 쌓아두기 위한 자료구조 중 하나
 - 선입선출(FIFO, First-In-First-Out)
+
 |연산|설명|Java 제공 메서드|
 |:---:|:---:|:---:|
 |**Enqueue**|큐의 맨 뒤(rear)에서 데이터를 추가하는 연산|add(E e), offer(E e)|
