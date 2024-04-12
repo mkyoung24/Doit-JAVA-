@@ -30,4 +30,76 @@
 |**O(nlogn)**|로그 선형|선형 로그 시간|입력 크기가 증가함에 따라 실행 시간이 로그함수와 선형 함수의 곱의 형태로 증가합니다.|병합 정렬, 힙 정렬 알고리즘|
 |**O(n^2)**|이차|이차 시간|입력 크기의 제곱에 비례하는 실행 시간을 가집니다.|선택 정렬, 버블 정렬, 퀵 정렬 알고리즘|
 |**O(2^n)**|지수|지수 시간|입력 크기의 지수에 비례하는 실행 시간을 가집니다.|부분집합|
-|**O(n!)**|계승|팩토리얼 시간|입력 크기의 팩토리얼에 비례하는 실행 시간을 가집니다.|외판원 문|
+|**O(n!)**|계승|팩토리얼 시간|입력 크기의 팩토리얼에 비례하는 실행 시간을 가집니다.|외판원 문제|
+
+
+#### 표기법 예시
+1. O(1) : 상수 시간 알고리즘
+```java
+public static int getFirst(int[] nums) {
+    return nums[0];
+}
+```
+2. O(log n) : 로그 시간 알고리즘
+```java
+public static int binarySearch(int[] nums, int target) {
+    int left = 0, right = nums.length - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (nums[mid] == target) {
+            return mid;
+        } else if (nums[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid -1;
+        }
+    }
+    return -1;
+}
+```
+3. O(n) : 선형 시간 알고리즘
+```java
+public static int[] reverse(int[] nums) {
+    int[] reversed = new int[nums.length];
+    for (int i = 0; i < nums.length; i++) {
+        reversed[nums.length - i - 1] = nums[i];
+    }
+    return reversed;
+}
+```
+4. O(nlogn) : 로그 선형 알고리즘
+```java
+public static void mergeSort(int[] nums, int left, int right) {
+    if (left < right) {
+        int mid = left + (right - left) / 2;
+        mergeSort(nums, left, mid);
+        mergeSort(nums, mid + 1, right);
+        merge(nums, left, mid, right);
+    }
+}
+```
+5. O(n^2) : 이차 시간 알고리즘
+```java
+public static void selectionSort(int[] nums) {
+    for (int i = 0; i < nums.length - 1; i++) {
+        int midIdx = i;
+        for (int j = i + 1; j < nums.length; j++) {
+            if (nums[j] < nums[minIdx]) {
+                midIdx = j;
+            }
+        }
+        int tmp = nums[i];
+        nums[i] = nums[minIdx];
+        nums[minIdx] = tmp;
+    }
+}
+```
+6. O(2^n) : 지수 시간 알고리즘
+```java
+public static int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+```
