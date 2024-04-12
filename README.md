@@ -6,10 +6,9 @@
 3. [재귀 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch3)
 4. [정렬 알고리즘](https://github.com/mkyoung24/Algorithm/tree/ch4)
 5. [문자열 검색](https://github.com/mkyoung24/Algorithm/tree/ch5)
-6. [리스트](https://github.com/mkyoung24/Algorithm/tree/ch6)
-7. 트리
-8. 해시
-9. 시간복잡도, 공간복잡도
+6. [복잡도](https://github.com/mkyoung24/Algorithm/tree/ch6)
+7. 선형 자료 구조
+8. 비선형 자료 구조
 
 
 # :file_folder: 출처
