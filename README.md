@@ -49,7 +49,7 @@
 |**Enqueue**|큐의 맨 뒤(rear)에서 데이터를 추가하는 연산|add(E e), offer(E e)|
 |**rear**|큐의 맨 뒤에 위치한 데이터를 가리키는 포인터|remove(), poll()|
 |**front**|큐의 맨 앞에 위치한 데이터를 가리키는 포인터|element(), peek()|
-|**Dequeue**|큐의 맨 앞에 위치한 데이터를 가리키는 포인터||
+|**Dequeue**|큐의 맨 앞(front)에 위치한 데이터를 추출하는 연산||
 
 
 ## 덱(Deque)
