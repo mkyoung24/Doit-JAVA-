@@ -78,7 +78,6 @@
 
 ### Stack
 - LIFO(Last In First Out)
-- 들어올때 push, 나갈때는 pop
 - Stack은 Vector를 상속하기 때문에 문제점이 많아 잘 안쓰임(대신 ArrayDeque 사용)
 
 ```java
