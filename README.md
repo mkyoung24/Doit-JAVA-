@@ -9,7 +9,7 @@
 6. [복잡도](https://github.com/mkyoung24/Algorithm/tree/ch6)
 7. [선형 자료 구조](https://github.com/mkyoung24/Algorithm/tree/ch7)
 8. [비선형 자료 구조](https://github.com/mkyoung24/Algorithm/tree/ch8)
-9. [리스트](https://github.com/mkyoung24/Algorithm/tree/ch9)
+9. [컬렉션 프레임워크](https://github.com/mkyoung24/Algorithm/tree/ch9)
 
 
 # :file_folder: 출처
