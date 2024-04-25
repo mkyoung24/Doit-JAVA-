@@ -30,6 +30,7 @@
 |<span style="color:blue">연속적인 기억 장소의 할당이 불필요</span>||
 
 
+***
 ### 시간 복잡도 비교
 |연산|LinkedList|ArrayList|추천|
 |:---:|:---:|:---:|:---:|
