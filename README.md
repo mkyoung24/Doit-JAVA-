@@ -49,4 +49,3 @@
 ## :file_folder: 출처
 - <https://inpa.tistory.com/entry/JCF-%F0%9F%A7%B1-ArrayList-vs-LinkedList-%ED%8A%B9%EC%A7%95-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90>
 - <https://dev-coco.tistory.com/19>
-- <https://velog.io/@mdy0102/ArrayList-LinkedList%EC%9D%98-%ED%8A%B9%EC%A7%95%EA%B3%BC-%EC%B0%A8%EC%9D%B4#arraylist>
