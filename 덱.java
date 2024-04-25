@@ -12,12 +12,12 @@ public class Deque_test {
 		System.out.println(d.removeFirst());
 		
 		Deque<String> q = new ArrayDeque<>();
-        q.addFirst("E1");
-        q.addFirst("E2");
-        q.addFirst("E3");
-        System.out.println(q.removeLast());
-        System.out.println(q.removeLast());
-        System.out.println(q.removeLast());
+        	q.addFirst("E1");
+        	q.addFirst("E2");
+        	q.addFirst("E3");
+        	System.out.println(q.removeLast());
+        	System.out.println(q.removeLast());
+        	System.out.println(q.removeLast());
 
 	}
 }
