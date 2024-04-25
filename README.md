@@ -27,7 +27,7 @@
 |<span style="color:blue">자료의 삽입과 삭제가 용이</span>|<span style="color:red">포인터의 사용으로 인해 저장 공간의 낭비</span>|
 |<span style="color:blue">리스트 내에서 자료의 이동이 불필요</span>|<span style="color:red">알고리즘이 복잡</span>|
 |<span style="color:blue">사용 후 기억 장소의 재사용이 가능</span>|<span style="color:red">특정 자료의 탐색 시간이 많이 소요</span>|
-|<span style="color:blue">연속적인 기억 장소의 할당이 불필</span>||
+|<span style="color:blue">연속적인 기억 장소의 할당이 불필요</span>||
 
 
 ### 시간 복잡도 비교
