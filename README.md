@@ -18,5 +18,9 @@
 - 비선형구조 : 백트래킹, DFS, BFS
 
 ***
-## 참고
+## :scroll: 문제
+<https://github.com/mkyoung24/Baekjoon/tree/main/%EC%99%84%EC%A0%84%20%ED%83%90%EC%83%89>
+
+
+## :file_folder: 참고
 - <https://foreverhappiness.tistory.com/104>
