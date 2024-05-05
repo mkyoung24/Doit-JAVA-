@@ -50,10 +50,11 @@
 <https://github.com/mkyoung24/Baekjoon/tree/main/BFS>
 
 
->
+```
 - 시간 복잡도는 DFS, BFS 둘 다 O로 같음
 - 일반적으로 BFS가 조금 더 빠름
 - 일반적으로 경로의 특징을 저장해야 하는 경우에는 DFS, 최단 경로를 구하는데에는 BFS를 사용
+```
 
 
 ***
