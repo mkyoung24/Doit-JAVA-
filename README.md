@@ -11,7 +11,7 @@
 8. [비선형 자료 구조](https://github.com/mkyoung24/Algorithm/tree/ch8)
 9. [컬렉션 프레임워크](https://github.com/mkyoung24/Algorithm/tree/ch9)
 10. [동적 계획법(DP)](https://github.com/mkyoung24/Algorithm/tree/ch10)
-11. [ArrayList vs LinkedList](https://github.com/mkyoung24/Algorithm/tree/ch11)
+11. [깊이 우선 탐색(DFS)와 너비 우선 탐색(BFS)](https://github.com/mkyoung24/Algorithm/tree/ch11)
 12. [완전탐색(Brute-Force Search)](https://github.com/mkyoung24/Algorithm/tree/ch12)
 
 
